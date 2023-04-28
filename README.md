@@ -18,3 +18,14 @@ Ubuntuで、Pythonやビルドツール、音声・映像関連のライブラ�
 - Python開発に必要なライブラリ
 - 動画や音声の再生、変換に必要なライブラリであるffmpeg、gstreamerなど
 
+## calculator
+電卓アプリ。ラズパイでフル画面で動かせるように `cal_for_raspberrypi` も作成した。
+
+## mycamera
+カメラに繋いでデスクトップアプリとして確認できる用にした。シャッター機能有り。
+
+## touchapp
+タッチパネル用に試作
+
+## windows_kivy
+画面遷移用に試作
