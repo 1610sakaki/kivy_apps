@@ -1,6 +1,6 @@
 # kivy_apps
 GUI application created with kivy
-Equipped with a calculator and screen transitions
+Calculator and camera confirmation application, screen transition and touch panel demo application are included.
 
 kivyで作成したGUIアプリケーション
 
