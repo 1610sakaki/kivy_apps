@@ -1,11 +1,10 @@
-# kivy_calculator
+# kivy_apps
 GUI application created with kivy
-
 Equipped with a calculator and screen transitions
 
 kivyで作成したGUIアプリケーション
 
-電卓と画面遷移をつけています
+電卓とカメラ確認用アプリ、画面遷移とタッチパネルデモアプリを入れています。
 
 ## install.sh
 Ubuntuで、Pythonやビルドツール、音声・映像関連のライブラリをインストールするコマンドをまとめた。
