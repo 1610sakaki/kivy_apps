@@ -1,0 +1,56 @@
+#:kivy 2.0
+
+#-*- coding: utf-8 -*-
+<Widget>:
+    font_name: '/usr/share/fonts/truetype/takao-gothic/TakaoPGothic.ttf'
+
+<BtnWidget>:
+    canvas:
+        Color:
+            rgb: (0.55, 0.55, 0.55)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    BoxLayout:
+        orientation: 'vertical'
+        pos: root.pos
+        size: root.size
+
+        Label:
+            text: 'Raspberry Piでタッチアプリ'
+            color: 0,0,1,1
+            font_size:'40sp'
+            size_hint_y: 0.2
+            canvas.before:
+                Color:
+                    rgba: 0.55, 0.69, 0.97, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+        Label:
+            text: 'GPIOでリレーのオンとオフ'
+            font_size:'32sp'
+            size_hint_y: 0.3
+
+        BoxLayout:
+            orientation: 'horizontal'
+            padding: 40,40,40,40
+            spacing: 20
+            size_hint: 1.0, 1.0
+
+            Button:
+                id: btnOff
+                text: 'リレーをオフ'
+                background_normal:''
+                background_color: 0.75,0.75,0.75,1
+                font_size: 40
+                on_press: root.off()
+
+            Button:
+                id: btnOn
+                background_normal:''
+                background_color: 1,0,0,0.4
+                text: 'リレーをオン'
+                font_size: 40
+                on_press: root.on()
